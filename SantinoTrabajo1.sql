@@ -64,7 +64,7 @@ CREATE TABLE agencia (
   ID_Producro_disponible int NOT NULL AUTO_INCREMENT,
   Producto varchar(400) DEFAULT NULL,
   Cantidad int DEFAULT NULL,
-  PRIMARY KEY (ID_Producro_disponible),
+  PRIMARY KEY (ID_Producto_disponible),
   foreign key (ID_Producto_disponible) references proveedor(ID_Producto_disponible)
   );
   CREATE TABLE proveedor (
